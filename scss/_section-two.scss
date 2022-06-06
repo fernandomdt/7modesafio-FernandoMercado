@@ -1,0 +1,34 @@
+// SECCIÓN DOS DEL INDEX
+
+.bloqueDos {
+    padding:10% 0 10% 0;
+    gap: 5%;
+}
+
+    @media screen and (max-width: 768px){
+        .bloqueDos {
+            flex-direction: column-reverse;
+        }
+    }
+
+
+.Imagen-BloqueDos img {
+    -webkit-filter: blur(3px);
+    filter: blur(8px);
+    -webkit-transition: .3s ease-in-out;
+    transition: .4s ease-in-out;
+    cursor: pointer;
+}
+
+
+.Imagen-BloqueDos img:hover {
+    -webkit-filter: blur(0);
+    filter: blur(0);
+}
+
+
+.Texto-BloqueDos {
+    display: block;
+    width:600px;
+    margin-top: 10%;
+}

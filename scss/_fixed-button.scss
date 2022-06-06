@@ -1,0 +1,30 @@
+// BOTÓN FIJO EN LA PARTE INFERIOR DEL VIEWPORT
+
+.Imagen-fixed {
+    position: fixed;
+     width: 100px;
+    height: 100px;
+    margin: auto;
+    background: url("../Images/Lynch-fixed-home.png");
+    background-position: center;
+    background-size: cover;
+    -webkit-animation:spin 2s linear infinite;
+    -moz-animation:spin 2s linear infinite;
+    animation:spin 2s linear infinite;
+    right: 3%;
+    bottom: 3%;
+    cursor:pointer;
+}
+        
+    @-moz-keyframes spin { 
+        100% { -moz-transform: rotate(360deg); } 
+    }
+    @-webkit-keyframes spin { 
+        100% { -webkit-transform: rotate(360deg); } 
+    }
+    @keyframes spin { 
+        100% { 
+            -webkit-transform: rotate(360deg); 
+            transform:rotate(360deg); 
+        } 
+    }

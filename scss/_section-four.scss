@@ -1,0 +1,19 @@
+// SECCIÓN CUATRO DEL INDEX - VIDEO IFRAME
+
+.video{
+    height:700px; 
+    width:100%;
+}
+
+    @media screen and (max-width: 768px){
+        .video {
+            height:500px; 
+        }
+    }
+
+
+    @media screen and (max-width: 500px){
+        .video{
+            height:450px; 
+        }
+    }

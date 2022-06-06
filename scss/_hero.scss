@@ -1,0 +1,36 @@
+// SECCIÓN UNO DEL INDEX
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/Homepage-section1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: inherit;
+    display: flex;
+}
+
+.hero-image, .container-fluid{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.container {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.hero-text {
+    color:white;
+    width: 500px;
+    padding: 20% 0 20% 0;
+    text-align: left;
+    display:flex;
+    flex-direction: column;
+}
+
+    @media screen and (max-width: 768px){
+        .hero-text {
+            width: 80%;
+            padding: 30% 0 30% 10%;
+        }
+    }

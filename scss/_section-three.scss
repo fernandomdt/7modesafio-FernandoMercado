@@ -1,0 +1,52 @@
+// SECCIÓN TRES DEL INDEX
+
+.BloqueTres{
+    background: linear-gradient(-55deg, #f7dcd4, #8dbea5, #f5b46a, #c1b5d7);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+    padding:10% 0 10% 0;
+}
+
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
+    @media screen and (max-width: 768px){
+        .BloqueTres{
+            padding:20% 0 20% 0;
+        }
+    }
+
+.Section3texto {
+    width:600px;
+    margin: auto;
+}
+
+    .Section3texto p,h3 {
+        text-align: center;
+    }
+
+.Filmes {
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    gap: 5%;
+    
+ }
+
+    .Filmes img{
+        transition: .3s ease-in-out;
+        cursor:pointer;
+    }
+
+        .Filmes img:hover{
+            transform: translateY(-7%);
+        }
